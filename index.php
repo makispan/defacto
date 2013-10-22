@@ -7,7 +7,7 @@
     $gallery = new UberGallery();
 
     // Initialize the gallery array
-    $galleryArray = $gallery->readImageDirectory('gallery-images');
+    $galleryArray = $gallery->readImageDirectory('https://s3.amazonaws.com/defacto-bar/gallery-images');
 
     // Define theme path
     if (!defined('THEMEPATH')) {
